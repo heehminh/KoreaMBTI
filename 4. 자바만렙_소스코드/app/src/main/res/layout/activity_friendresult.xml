@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/fontView1"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/dgm"
+        android:gravity="center"
+        android:text="KOREAN MBTI"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/fontView2"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/dgm"
+            android:gravity="right"
+            android:text="name"
+            android:textColor="@color/black"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/TextView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/dgm"
+            android:gravity="left"
+            android:text=" 님의 MBTI는"
+            android:textColor="@color/black"
+            android:textSize="35dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/fontView3"
+            android:layout_width="197dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/dgm"
+            android:gravity="right"
+            android:text="data"
+            android:textColor="@color/black"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/TextView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/dgm"
+            android:gravity="left"
+            android:text=" 입니다!"
+            android:textColor="@color/black"
+            android:textSize="35dp" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#1c2d69"
+        android:textColor="@color/white"
+        android:fontFamily="@font/dgm"
+        android:text="  결과 보러가기  "
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/fontView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/dgm"
+        android:gravity="center"
+        android:text="MADE BY 자바만렙"
+        android:textColor="#4a4a4a" />
+
+
+</LinearLayout>

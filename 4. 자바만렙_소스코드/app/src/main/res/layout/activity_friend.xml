@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/fontView1"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/dgm"
+        android:gravity="center"
+        android:text="KOREAN MBTI"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+
+    <TextView
+        android:id="@+id/fontView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/dgm"
+        android:gravity="center"
+        android:text="(사용자)와 (친구이름)는\n\n영혼의 단짝이네요!"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:text=" 처음으로 돌아가기 "
+        android:fontFamily="@font/dgm"
+        android:textSize="20dp"
+        android:backgroundTint="#1c2d69"
+        android:textColor="@color/white" />
+    <TextView
+        android:id="@+id/fontView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/dgm"
+        android:gravity="center"
+        android:text="MADE BY 자바만렙"
+        android:textColor="#4a4a4a" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/fontView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:fontFamily="@font/dgm"
+        android:gravity="center"
+        android:text="한국식MBTI를\n알아보자!"
+        android:textColor="@color/black"
+        android:layout_marginTop="100dp"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/fontView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/dgm"
+        android:gravity="center"
+        android:text="당신의 MBTI를 알아보고\n친구와 맞춰보자!"
+        android:textColor="#36454f"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="  !START!  "
+        android:fontFamily="@font/dgm"
+        android:textSize="30dp"
+        android:backgroundTint="#1c2d69"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/fontView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/dgm"
+        android:gravity="center"
+        android:text="MADE BY 자바만렙"
+        android:textColor="#4a4a4a"
+        android:layout_marginTop="185dp" />
+
+
+
+</LinearLayout>

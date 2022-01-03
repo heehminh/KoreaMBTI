@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/fontView1"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/dgm"
+        android:gravity="center"
+        android:text="KOREAN MBTI"
+        android:textColor="#4a4a4a"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/fontView2"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/dgm"
+        android:gravity="center"
+        android:text="이름을 알려주세요!"
+        android:textColor="@color/black"
+        android:textSize="35dp" />
+    <TextView
+        android:id="@+id/fontView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:fontFamily="@font/dgm"
+        android:gravity="center"
+        android:text="한글/영어 3글자까지 가능합니다."
+        android:textColor="#1c2d69"
+        android:textSize="15dp"
+        android:layout_marginBottom="20dp" />
+    
+
+        <EditText
+            android:id="@+id/EditText1"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:fontFamily="@font/dgm"
+            android:textColor="#4a4a4a"
+            android:maxLength="3"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#1c2d69"
+            android:textColor="@color/white"
+            android:fontFamily="@font/dgm"
+            android:text=" 확인 "
+            android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/fontView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:fontFamily="@font/dgm"
+        android:gravity="center"
+        android:text="MADE BY 자바만렙"
+        android:textColor="#4a4a4a"
+        android:layout_marginTop="160dp" />
+
+
+</LinearLayout>
